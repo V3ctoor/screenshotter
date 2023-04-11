@@ -1,0 +1,1 @@
+start /B pythonw screenshottaker.py
