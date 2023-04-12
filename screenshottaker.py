@@ -4,6 +4,7 @@ import ctypes
 from mss import mss
 from mss.tools import to_png
 from screeninfo import get_monitors
+from PIL import Image, ImageDraw, ImageFont
 
 class LASTINPUTINFO(ctypes.Structure):
     _fields_ = [("cbSize", ctypes.c_uint), ("dwTime", ctypes.c_uint)]
@@ -17,6 +18,21 @@ def get_idle_time():
 def is_user_idle():
     idle_time_seconds = get_idle_time()
     return idle_time_seconds > 10
+
+def add_timestamp(image, text):
+    font_size = 20
+    font = ImageFont.truetype("arial.ttf", font_size)
+    draw = ImageDraw.Draw(image)
+    text_bbox = draw.textbbox((0, 0), text, font)
+    text_width, text_height = text_bbox[2] - text_bbox[0], text_bbox[3] - text_bbox[1]
+    x, y = 5, image.height - text_height - 5
+
+    # Draw the text with a black outline
+    for dx, dy in [(-1, -1), (-1, 1), (1, -1), (1, 1)]:
+        draw.text((x + dx, y + dy), text, font=font, fill=(0, 0, 0))
+
+    # Draw the text in white
+    draw.text((x, y), text, font=font, fill=(255, 255, 255))
 
 def take_screenshot():
     # Get the current timestamp
@@ -48,9 +64,13 @@ def take_screenshot():
                 "height": monitor.height
             })
 
+            # Convert the screenshot to a PIL image and add the timestamp
+            pil_image = Image.frombytes("RGB", screenshot.size, screenshot.rgb)
+            add_timestamp(pil_image, timestamp)
+
             # Save the screenshot with the timestamp in the file name
             screenshot_path = os.path.join(monitor_folder, f"{timestamp}_screenshot.png")
-            to_png(screenshot.rgb, screenshot.size, output=screenshot_path)
+            pil_image.save(screenshot_path, "PNG")
             print(f"Screenshot saved for monitor {i+1} to {screenshot_path}")
 
 def main():
