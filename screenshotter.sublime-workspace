@@ -1,0 +1,457 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"current_",
+				"current_merchant_number"
+			],
+			[
+				"current",
+				"current_tz"
+			],
+			[
+				"curer",
+				"current_info_screen_tz"
+			],
+			[
+				"n",
+				"neighbour"
+			],
+			[
+				"neigh",
+				"neighbours"
+			],
+			[
+				"t",
+				"trade_goods_list"
+			],
+			[
+				"S",
+				"Sevilla"
+			],
+			[
+				"trade",
+				"trade_center_list"
+			],
+			[
+				"get_tz",
+				"get_tz_base_production"
+			],
+			[
+				"draw",
+				"draw_info_screen"
+			],
+			[
+				"map",
+				"map_entity_list"
+			],
+			[
+				"pos",
+				"pos_y"
+			],
+			[
+				"world",
+				"world_y"
+			],
+			[
+				"po",
+				"pos_y"
+			],
+			[
+				"scre",
+				"screen_height"
+			],
+			[
+				"screen",
+				"screen_width"
+			],
+			[
+				"sc",
+				"screen_height"
+			],
+			[
+				"w",
+				"world_x"
+			],
+			[
+				"logo",
+				"logo32x32"
+			],
+			[
+				"fun",
+				"function\tfunction"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "screenshottaker.py",
+			"settings":
+			{
+				"buffer_size": 3402,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					1,
+					1,
+					"revert",
+					null,
+					"BgAAAAAAAAAAAAAAAAAAAAAAAACKCAAAaW1wb3J0IG9zCmltcG9ydCB0aW1lCmltcG9ydCBjdHlwZXMKZnJvbSBtc3MgaW1wb3J0IG1zcwpmcm9tIG1zcy50b29scyBpbXBvcnQgdG9fcG5nCmZyb20gc2NyZWVuaW5mbyBpbXBvcnQgZ2V0X21vbml0b3JzCgpjbGFzcyBMQVNUSU5QVVRJTkZPKGN0eXBlcy5TdHJ1Y3R1cmUpOgogICAgX2ZpZWxkc18gPSBbKCJjYlNpemUiLCBjdHlwZXMuY191aW50KSwgKCJkd1RpbWUiLCBjdHlwZXMuY191aW50KV0KCmRlZiBnZXRfaWRsZV90aW1lKCk6CiAgICBsYXN0X2lucHV0X2luZm8gPSBMQVNUSU5QVVRJTkZPKCkKICAgIGxhc3RfaW5wdXRfaW5mby5jYlNpemUgPSBjdHlwZXMuc2l6ZW9mKExBU1RJTlBVVElORk8pCiAgICBjdHlwZXMud2luZGxsLnVzZXIzMi5HZXRMYXN0SW5wdXRJbmZvKGN0eXBlcy5ieXJlZihsYXN0X2lucHV0X2luZm8pKQogICAgcmV0dXJuIChjdHlwZXMud2luZGxsLmtlcm5lbDMyLkdldFRpY2tDb3VudCgpIC0gbGFzdF9pbnB1dF9pbmZvLmR3VGltZSkgLyAxMDAwCgpkZWYgaXNfdXNlcl9pZGxlKCk6CiAgICBpZGxlX3RpbWVfc2Vjb25kcyA9IGdldF9pZGxlX3RpbWUoKQogICAgcmV0dXJuIGlkbGVfdGltZV9zZWNvbmRzID4gMTAKCmRlZiB0YWtlX3NjcmVlbnNob3QoKToKICAgICMgR2V0IHRoZSBjdXJyZW50IHRpbWVzdGFtcAogICAgdGltZXN0YW1wID0gdGltZS5zdHJmdGltZSgiJVktJW0tJWRfJUgtJU0tJVMiKQogICAgZGF0ZSA9IHRpbWUuc3RyZnRpbWUoIiVZLSVtLSVkIikKCiAgICAjIENyZWF0ZSBhIGZvbGRlciBuYW1lZCAnc2NyZWVuc2hvdHMnIGlmIGl0IGRvZXNuJ3QgZXhpc3QKICAgIGlmIG5vdCBvcy5wYXRoLmV4aXN0cygic2NyZWVuc2hvdHMiKToKICAgICAgICBvcy5tYWtlZGlycygic2NyZWVuc2hvdHMiKQoKICAgICMgQ3JlYXRlIGEgZm9sZGVyIGZvciB0aGUgY3VycmVudCBkYXkgaWYgaXQgZG9lc24ndCBleGlzdAogICAgZGFpbHlfZm9sZGVyID0gb3MucGF0aC5qb2luKCJzY3JlZW5zaG90cyIsIGRhdGUpCiAgICBpZiBub3Qgb3MucGF0aC5leGlzdHMoZGFpbHlfZm9sZGVyKToKICAgICAgICBvcy5tYWtlZGlycyhkYWlseV9mb2xkZXIpCgogICAgIyBJdGVyYXRlIG92ZXIgYWxsIGNvbm5lY3RlZCBtb25pdG9ycwogICAgd2l0aCBtc3MoKSBhcyBzY3Q6CiAgICAgICAgZm9yIGksIG1vbml0b3IgaW4gZW51bWVyYXRlKGdldF9tb25pdG9ycygpKToKICAgICAgICAgICAgIyBDcmVhdGUgYSBmb2xkZXIgZm9yIHRoZSBjdXJyZW50IG1vbml0b3IgaWYgaXQgZG9lc24ndCBleGlzdAogICAgICAgICAgICBtb25pdG9yX2ZvbGRlciA9IG9zLnBhdGguam9pbihkYWlseV9mb2xkZXIsIGYibW9uaXRvcl97aSsxfSIpCiAgICAgICAgICAgIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhtb25pdG9yX2ZvbGRlcik6CiAgICAgICAgICAgICAgICBvcy5tYWtlZGlycyhtb25pdG9yX2ZvbGRlcikKCiAgICAgICAgICAgICMgQ2FwdHVyZSBhIHNjcmVlbnNob3Qgb2YgdGhlIGN1cnJlbnQgbW9uaXRvcgogICAgICAgICAgICBzY3JlZW5zaG90ID0gc2N0LmdyYWIoewogICAgICAgICAgICAgICAgInRvcCI6IG1vbml0b3IueSwKICAgICAgICAgICAgICAgICJsZWZ0IjogbW9uaXRvci54LAogICAgICAgICAgICAgICAgIndpZHRoIjogbW9uaXRvci53aWR0aCwKICAgICAgICAgICAgICAgICJoZWlnaHQiOiBtb25pdG9yLmhlaWdodAogICAgICAgICAgICB9KQoKICAgICAgICAgICAgIyBTYXZlIHRoZSBzY3JlZW5zaG90IHdpdGggdGhlIHRpbWVzdGFtcCBpbiB0aGUgZmlsZSBuYW1lCiAgICAgICAgICAgIHNjcmVlbnNob3RfcGF0aCA9IG9zLnBhdGguam9pbihtb25pdG9yX2ZvbGRlciwgZiJ7dGltZXN0YW1wfV9zY3JlZW5zaG90LnBuZyIpCiAgICAgICAgICAgIHRvX3BuZyhzY3JlZW5zaG90LnJnYiwgc2NyZWVuc2hvdC5zaXplLCBvdXRwdXQ9c2NyZWVuc2hvdF9wYXRoKQogICAgICAgICAgICBwcmludChmIlNjcmVlbnNob3Qgc2F2ZWQgZm9yIG1vbml0b3Ige2krMX0gdG8ge3NjcmVlbnNob3RfcGF0aH0iKQoKZGVmIG1haW4oKToKICAgIHdoaWxlIFRydWU6CiAgICAgICAgaWYgbm90IGlzX3VzZXJfaWRsZSgpOgogICAgICAgICAgICB0YWtlX3NjcmVlbnNob3QoKQogICAgICAgIHRpbWUuc2xlZXAoMzApICAjIFdhaXQgZm9yIDMwIHNlY29uZHMKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkAAAAAAAAAAKsLAAAAAAAAAAAAAAAAAAAAAAAAqwsAAAAAAAAAAAAAAAAAAAAAAACrCwAAAAAAAAAAAAAAAAAAAAAAAKsLAAAAAAAAAAAAAAAAAAAAAAAAqwsAAAAAAAAAAAAA",
+					"BQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					11,
+					1,
+					"paste",
+					null,
+					"AgAAAP4KAAAAAAAA4gsAAAAAAAAAAAAA4gsAAAAAAADiCwAAAAAAAIYAAABkZWYgbWFpbigpOgogICAgd2hpbGUgVHJ1ZToKICAgICAgICBpZiBub3QgaXNfdXNlcl9pZGxlKCk6CiAgICAgICAgICAgIHRha2Vfc2NyZWVuc2hvdCgpCiAgICAgICAgdGltZS5zbGVlcCgzMCkgICMgV2FpdCBmb3IgMzAgc2Vjb25kcw",
+					"AQAAAAAAAAABAAAAhAsAAAAAAAD+CgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAPwKAAAAAAAA/QoAAAAAAAAAAAAA/QoAAAAAAAAJCwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/AoAAAAAAAD8CgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"paste",
+					null,
+					"AQAAAAkLAAAAAAAASwsAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACQsAAAAAAAAJCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"left_delete",
+					null,
+					"AQAAAAkLAAAAAAAACQsAAAAAAAAEAAAAICAgIA",
+					"AQAAAAAAAAABAAAADQsAAAAAAAANCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"BQAAAEcLAAAAAAAASAsAAAAAAAAAAAAASAsAAAAAAABUCwAAAAAAAAAAAABUCwAAAAAAAFULAAAAAAAAAAAAAFULAAAAAAAAYQsAAAAAAAAAAAAASAsAAAAAAABICwAAAAAAAAwAAAAgICAgICAgICAgICA",
+					"AQAAAAAAAAABAAAARwsAAAAAAABHCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					3,
+					"left_delete",
+					null,
+					"AwAAAFELAAAAAAAAUQsAAAAAAAAEAAAAICAgIE0LAAAAAAAATQsAAAAAAAAEAAAAICAgIEkLAAAAAAAASQsAAAAAAAAEAAAAICAgIA",
+					"AQAAAAAAAAABAAAAVQsAAAAAAABVCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					31,
+					1,
+					"paste",
+					null,
+					"AQAAAEkLAAAAAAAADwwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASQsAAAAAAABJCwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"paste",
+					null,
+					"AgAAABEMAAAAAAAAIw0AAAAAAAAAAAAAIw0AAAAAAAAjDQAAAAAAAOQAAABkZWYgbWFpbigpOgogICAgd2hpbGUgVHJ1ZToKICAgICAgICB0cnk6CiAgICAgICAgICAgIGlmIG5vdCBpc191c2VyX2lkbGUoKToKICAgICAgICAgICAgICAgIHRha2Vfc2NyZWVuc2hvdCgpCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICBwcmludChmIkVycm9yIG9jY3VycmVkOiB7ZX0iKQogICAgICAgIHRpbWUuc2xlZXAoMzApICAjIFdhaXQgZm9yIDMwIHNlY29uZHM",
+					"AQAAAAAAAAABAAAA9QwAAAAAAAARDAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "screenshot.bat",
+			"settings":
+			{
+				"buffer_size": 35,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 309.0,
+		"history":
+		[
+			"import os; path=sublime.packages_path(); (os.makedirs(path) if not os.path.exists(path) else None); window.run_command('exec', {'cmd': ['git', 'clone', 'https://github.com/dementive/Victoria3Tools', 'Victoria3Tools'], 'working_dir': path})",
+			"import os; path=sublime.packages_path(); (os.makedirs(path) if not os.path.exists(path) else None); window.run_command('exec', {'cmd': ['git', 'clone', 'https://github.com/dementive/Victoria3Tools', 'Victoria3Tools'], 'working_dir': path})\nimport os; path=sublime.packages_path(); (os.makedirs(path) if not os.path.exists(path) else None); window.run_command('exec', {'cmd': ['git', 'clone', 'https://github.com/dementive/Victoria3Tools', 'Victoria3Tools'], 'working_dir': path})\nsdfsdfimport os; path=sublime.packages_path(); (os.makedirs(path) if not os.path.exists(path) else None); window.run_command('exec', {'cmd': ['git', 'clone', 'https://github.com/dementive/Victoria3Tools', 'Victoria3Tools'], 'working_dir': path})"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Victor/Documents/GitHub/screenshotter"
+	],
+	"file_history":
+	[
+		"/C/Users/Victor/Documents/GitHub/Victoria3mod/resourcemod",
+		"/F/SteamLibrary/steamapps/common/Victoria 3/game/events/1848.txt",
+		"/F/SteamLibrary/steamapps/common/Victoria 3/game/map_data/state_regions/00_west_europe.txt",
+		"/F/SteamLibrary/steamapps/common/Victoria 3/game/gfx/map/city_data/city_types/arabic_mine.txt",
+		"/F/SteamLibrary/steamapps/common/Victoria 3/game/map_data/provinces.png",
+		"/F/SteamLibrary/steamapps/common/Victoria 3/game/map_data/adjacencies.csv",
+		"/F/SteamLibrary/steamapps/common/Victoria 3/game/map_data/rivers.png",
+		"/F/SteamLibrary/steamapps/common/Victoria 3/game/map_data/provinces.xcf",
+		"/F/SteamLibrary/steamapps/common/Victoria 3/game/map_data/nodes.dat",
+		"/F/SteamLibrary/steamapps/common/Victoria 3/game/events/alaska_events.txt",
+		"/C/Users/Victor/Documents/GitHub/improved-enigma/Testgame.js",
+		"/C/Users/Victor/Documents/GitHub/improved-enigma/gamepage.html",
+		"/C/Users/Victor/Documents/GitHub/improved-enigma/part1.html",
+		"/C/Users/Victor/Desktop/Testgame.js",
+		"/C/Users/Victor/AppData/Roaming/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/C/Users/Victor/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Victor/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/E/Torrents/Avatar-The Last Airbender complete br x264-nikto/Avatar.The.Last.Airbender.S03.1080p.BluRay.x264-nikt0/Avatar.The.Last.Airbender.S03.1080p.BluRay.x264-nikt0.nfo",
+		"/C/Program Files (x86)/Steam/userdata/39748771/281990/remote/save games/unitednationsofearth5_505588286/gamestate",
+		"/C/Program Files (x86)/Steam/userdata/39748771/281990/remote/save games/unitednationsofearth5_505588286/ironman.sav",
+		"/E/Torrents/Captain.America.Civil.War.2016.720p.BRRip.X264.AC3-EVO/Subtitles/Normal.srt",
+		"/C/Users/Victor/Documents/python/trade_centers.py",
+		"/C/Users/Victor/Documents/python/drawable.py",
+		"/C/Users/Victor/Documents/python/Drawable.py",
+		"/C/Users/Victor/AppData/Local/Temp/Rar$DRa10476.49863/01_03_colorkey/01_03_colorkey.py",
+		"/C/Users/Victor/AppData/Local/Temp/Rar$DRa4476.8342/01_05_movement/01_04_movement2.py",
+		"/C/Users/Victor/Documents/hey",
+		"/E/Torrents/Turmoil.The.Heat.Is.On.v2.0.10-SiMPLEX/SiMPLEX.nfo"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "screenshottaker.py",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3087,
+								3087
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "screenshot.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 35,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 144.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "screenshotter.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 325.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

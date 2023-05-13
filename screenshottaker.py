@@ -72,11 +72,23 @@ def take_screenshot():
             screenshot_path = os.path.join(monitor_folder, f"{timestamp}_screenshot.png")
             pil_image.save(screenshot_path, "PNG")
             print(f"Screenshot saved for monitor {i+1} to {screenshot_path}")
+            pil_image.close()  # Close the PIL image object to free memory
+
+def log_error(error_message):
+    log_file = "error_log.txt"
+    timestamp = time.strftime("%Y-%m-%d_%H-%M-%S")
+
+    with open(log_file, "a") as f:
+        f.write(f"{timestamp}: {error_message}\n")
 
 def main():
     while True:
-        if not is_user_idle():
-            take_screenshot()
+        try:
+            if not is_user_idle():
+                take_screenshot()
+        except Exception as e:
+            error_message = f"Error occurred: {e}"
+            log_error(error_message)
         time.sleep(30)  # Wait for 30 seconds
 
 if __name__ == "__main__":
