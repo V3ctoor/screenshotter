@@ -1,6 +1,7 @@
 import os
 import time
 import ctypes
+import winsound
 from mss import mss
 from mss.tools import to_png
 from screeninfo import get_monitors
@@ -8,6 +9,10 @@ from PIL import Image, ImageDraw, ImageFont
 
 class LASTINPUTINFO(ctypes.Structure):
     _fields_ = [("cbSize", ctypes.c_uint), ("dwTime", ctypes.c_uint)]
+
+def play_alert_sound():
+    winsound.PlaySound('alert.wav', winsound.SND_FILENAME)
+
 
 def get_idle_time():
     last_input_info = LASTINPUTINFO()
@@ -82,6 +87,9 @@ def log_error(error_message):
         f.write(f"{timestamp}: {error_message}\n")
 
 def main():
+    consecutive_errors = 0
+    last_error_message = None
+
     while True:
         try:
             if not is_user_idle():
@@ -89,6 +97,17 @@ def main():
         except Exception as e:
             error_message = f"Error occurred: {e}"
             log_error(error_message)
+
+            # Count consecutive errors
+            if error_message == last_error_message:
+                consecutive_errors += 1
+            else:
+                consecutive_errors = 1
+                last_error_message = error_message
+
+            # Play alert sound if the same error occurred more than 3 times consecutively
+            if consecutive_errors > 3:
+                play_alert_sound()
         time.sleep(30)  # Wait for 30 seconds
 
 if __name__ == "__main__":
